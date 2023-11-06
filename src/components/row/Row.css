@@ -10,6 +10,7 @@ h2 {
     overflow-x: scroll;
     padding: 20px;
     scroll-behavior: smooth;
+    cursor: pointer;
 }
 
 .row::-webkit-scrollbar {
@@ -26,7 +27,7 @@ h2 {
 .row_poster:hover {
     transform: scale(1.08);
     opacity: 1;
-    behavior: smooth;
+    behavior: transform smooth;
 }
 
 .row_posterLarge {

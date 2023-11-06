@@ -1,23 +1,84 @@
 .profilescreen {
     height: 100Vh;
     color: white;
+    display: flex;
+    align-items: center;
+}
+
+.slider{
+    display: flex;
+    gap: 20px;
+}
+
+.avatar_container > img {
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+}
+
+.selected {
+    border: 2px solid #e50914;
+}
+
+.slider > .avatar_container {
+    width: 200px;
+    height: 200px;
+}
+
+.slider_img{
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+}
+
+.avatar_container_drop{
+    width: 157px;
+    height: 157px;
+    content: attr(plus);
+    color: white;
+    font-size: 40px;
+}
+
+.avatar_container_drop > span{
+    font-size: 15rem;
+    position: absolute;
+    margin-top: -6.5rem;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.save_btn{
+    font-size: 25px;
+    padding: 10px 20px;
+    color: #808080;
+    text-align: center;
+    border: 1.5px solid #808080;
+    width: 200px;
+    cursor: pointer;
+    font-weight: 450;
+}
+
+.btn_div{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .profilescreen_body {
     display: flex;
     flex-direction: column;
-    width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 8%;
-    max-width: 800px;
+    height: 30rem;
 }
 
 .profilescreen_body > h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
-    border-bottom: 1px solid #282c2d;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .profilescreen_info {
