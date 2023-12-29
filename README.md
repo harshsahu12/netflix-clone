@@ -40,7 +40,7 @@
    
 2. Navigate to the project directory:
    ```bash
-   cd sorting-algo-visualizer
+   cd netflix-clone
    
 4. Install dependencies:
    ```bash
